@@ -39,8 +39,10 @@ const Hero = () => {
             off on your first order
            </motion.p>
            {/* button section */}
-           <motion.div variants={FadeRight(1.5)} className='flex justify-center 
-           md:justify-start '>
+           <motion.div 
+           variants={FadeRight(1.5)}
+         className='flex justify-center 
+          md:justify-start '>
             <button className='bg-emerald-400
             flex items-center gap-2'>
                 <span>
