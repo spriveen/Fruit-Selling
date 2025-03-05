@@ -49,8 +49,8 @@ const Banner2 = () => {
             viewport={{ once: true }}
             className="flex justify-center md:justify-start"
           >
-            <button className="bg-emerald-400 px-4 py-2 rounded text-white">
-              Learn More
+            <button className="bg-emerald-400 ">
+              Download the App
             </button>
           </motion.div>
         </div>
@@ -64,7 +64,7 @@ const Banner2 = () => {
           transition={{ duration:1, delay: 0.2 }}
           src={BannerPng}
           alt="Banner"
-          className="w-[300px] md:max-w-[400px] h-full object-cover
+          className="w-[350px] md:max-w-[400px] h-full object-cover
           drop-shadow"
         />
       </div>

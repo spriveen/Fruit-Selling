@@ -16,7 +16,7 @@ const bgStyle ={
 
 const Banner3 = () => {
   return (
-    <section className='bg-green-950/10'>
+    <section className='container mb-12'>
       <div 
        style={bgStyle}
       className="container grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0 py-14
@@ -34,7 +34,8 @@ const Banner3 = () => {
               viewport={{ once: true }}
               className="text-3xl lg:text-6xl font-bold uppercase"
             >
-              Brand Info
+               {""}
+            Get The Fresh Today
             </motion.h1>
 
             <motion.p
